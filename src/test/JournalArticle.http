@@ -1,0 +1,32 @@
+GET http://localhost:8080/articles/get/2
+Accept: application/json
+
+###
+POST http://localhost:8080/articles/moderate/mainArticle/upload/Password
+Content-Type: application/json
+
+{
+  "authorName": "YeetMainArticle",
+  "title" : " My assArticle",
+  "description": "deez nitsArticle",
+  "url": "http://MainArticle.pong",
+  "date" : "Date"
+}
+
+
+###
+GET http://localhost:8080/articles/get/10
+Accept: application/json
+
+###
+POST http://localhost:8080/articles/moderate/upload/Password
+Content-Type: application/json
+
+{
+  "authorName": "vanshika",
+  "title" : " My Stupid Sister",
+  "description": "My sister is extremely stupid and will never ever help me in chem again",
+  "url": "http://yourMom.com",
+  "date": "June 18th 2021"
+}
+
