@@ -1,0 +1,2 @@
+-Djdk.tls.client.protocols= TLSv1.2
+-Dspring.native.verify=false
