@@ -15,7 +15,6 @@
 	<description>API for the journal </description>
 	<properties>
 		<java.version>11</java.version>
-		<spring-native.version>0.10.0-SNAPSHOT</spring-native.version>
 	</properties>
 	<dependencies>
 		<dependency>
